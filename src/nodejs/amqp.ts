@@ -178,7 +178,8 @@ module.exports = function(RED) {
         }
 
 		var opt = {
-			ca: []
+      ca: [],
+      rejectUnauthorized: false
 		};
 
 		// We only need to OS check for TLS connections
